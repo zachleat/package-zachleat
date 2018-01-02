@@ -1,0 +1,22 @@
+{
+  "name": "zachleat",
+  "version": "1.0.0",
+  "description": "Meta package for @zachleat the person",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npx ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zachleat/zachleat.git"
+  },
+  "author": "Zach Leatherman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zachleat/zachleat/issues"
+  },
+  "homepage": "https://github.com/zachleat/zachleat#readme",
+  "devDependencies": {
+    "ava": "^0.24.0"
+  }
+}
