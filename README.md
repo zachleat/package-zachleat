@@ -7,3 +7,11 @@ Meta package for @zachleat the person
 ```
 npm install zachleat
 ```
+
+## Usage
+
+```
+const zachleat = require("zachleat");
+
+zachleat();
+```
