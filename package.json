@@ -1,6 +1,6 @@
 {
   "name": "zachleat",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Meta package for @zachleat the person",
   "main": "./src/index.js",
   "bin": {
