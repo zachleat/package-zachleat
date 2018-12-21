@@ -7,6 +7,7 @@
     "zachleat": "./src/cmd.js"
   },
   "scripts": {
+    "default": "node src/cmd.js",
     "test": "npx ava"
   },
   "engines": {
