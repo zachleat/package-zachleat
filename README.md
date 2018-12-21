@@ -4,6 +4,8 @@ Meta package for @zachleat the person
 
 ## Installation
 
+* [`zachleat` on npm](https://www.npmjs.com/package/zachleat)
+
 ```sh
 npm install zachleat
 ```
