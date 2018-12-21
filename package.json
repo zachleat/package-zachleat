@@ -2,9 +2,15 @@
   "name": "zachleat",
   "version": "2.0.0",
   "description": "Meta package for @zachleat the person",
-  "main": "src/index.js",
+  "main": "./src/index.js",
+  "bin": {
+    "zachleat": "./src/cmd.js"
+  },
   "scripts": {
     "test": "npx ava"
+  },
+  "engines": {
+    "node": ">=6"
   },
   "repository": {
     "type": "git",
@@ -17,6 +23,6 @@
   },
   "homepage": "https://github.com/zachleat/zachleat#readme",
   "devDependencies": {
-    "ava": "^0.24.0"
+    "ava": "^1.0.0"
   }
 }
