@@ -1,6 +1,6 @@
 {
   "name": "zachleat",
-  "version": "2.0.3",
+  "version": "36.0.0",
   "description": "Meta package for @zachleat the person",
   "main": "./src/index.js",
   "bin": {
@@ -25,5 +25,8 @@
   "homepage": "https://github.com/zachleat/zachleat#readme",
   "devDependencies": {
     "ava": "^1.0.0"
+  },
+  "dependencies": {
+    "update-notifier": "^2.5.0"
   }
 }

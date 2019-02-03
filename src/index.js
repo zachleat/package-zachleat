@@ -1,3 +1,8 @@
+const updateNotifier = require("update-notifier");
+const pkg = require("../package.json");
+
+updateNotifier({ pkg }).notify();
+
 module.exports = function() {
 	console.log( `           Hi, I’m Zach.
 
