@@ -1,5 +1,11 @@
-import test from "ava";
+const test = require("ava");
+const zachleat = require("../")
 
-test(t => {
+test("Status", t => {
   t.true(true, "Everything is fine.");
+});
+
+test("Output", t => {
+  zachleat();
+  t.true(true);
 });
