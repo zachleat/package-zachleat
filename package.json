@@ -1,6 +1,6 @@
 {
   "name": "zachleat",
-  "version": "39.0.0",
+  "version": "40.0.0",
   "description": "Meta package for @zachleat the person",
   "main": "./src/index.js",
   "bin": {
@@ -11,7 +11,7 @@
     "test": "npx ava"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/zachleat/zachleat#readme",
   "devDependencies": {
-    "ava": "^4.0.1"
+    "ava": "^5.1.1"
   },
   "dependencies": {
     "update-notifier": "^5.1.0"
