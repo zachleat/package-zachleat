@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/zachleat/zachleat.git"
+    "url": "git+ssh://git@github.com/zachleat/package-zachleat.git"
   },
   "author": "Zach Leatherman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zachleat/zachleat/issues"
+    "url": "https://github.com/zachleat/package-zachleat/issues"
   },
-  "homepage": "https://github.com/zachleat/zachleat#readme",
+  "homepage": "https://github.com/zachleat/package-zachleat#readme",
   "devDependencies": {
     "ava": "^5.1.1"
   },
