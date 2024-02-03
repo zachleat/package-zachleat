@@ -1,17 +1,18 @@
 {
   "name": "zachleat",
-  "version": "40.0.1",
-  "description": "Meta package for @zachleat the person",
+  "version": "41.0.0",
+  "description": "Meta package for Zach Leatherman",
   "main": "./src/index.js",
   "bin": {
     "zachleat": "./src/cmd.js"
   },
+  "type": "module",
   "scripts": {
     "default": "node src/cmd.js",
-    "test": "npx ava"
+    "test": "node --test"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
   },
   "repository": {
     "type": "git",
@@ -23,9 +24,6 @@
     "url": "https://github.com/zachleat/package-zachleat/issues"
   },
   "homepage": "https://github.com/zachleat/package-zachleat#readme",
-  "devDependencies": {
-    "ava": "^5.1.1"
-  },
   "dependencies": {
     "update-notifier": "^5.1.0"
   }

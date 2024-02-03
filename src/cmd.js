@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-const zachleat = require("./index");
+import zachleat from "./index.js";
 
 zachleat();

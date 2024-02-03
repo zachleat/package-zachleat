@@ -1,11 +1,12 @@
-const test = require("ava");
-const zachleat = require("../")
+import assert from "node:assert/strict";
+import test from "node:test";
+import zachleat from "../src/index.js";
 
 test("Status", t => {
-  t.true(true, "Everything is fine.");
+	assert.ok(true);
 });
 
 test("Output", t => {
-  zachleat();
-  t.true(true);
+	zachleat();
+	assert.ok(true);
 });

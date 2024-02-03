@@ -1,6 +1,6 @@
 # zachleat
 
-Meta package for @zachleat the person
+Meta package for Zach Leatherman
 
 ## Installation
 
@@ -21,7 +21,14 @@ npx zachleat
 ### Programmatic
 
 ```js
-const zachleat = require("zachleat");
+import zachleat from "zachleat";
+
+// or in CommonJS
+// const zachleat = await import("zachleat");
 
 zachleat();
 ```
+
+## Changelog
+
+* `v41` Upgraded to ESM.
