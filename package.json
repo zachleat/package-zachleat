@@ -1,6 +1,6 @@
 {
   "name": "zachleat",
-  "version": "41.0.0",
+  "version": "42.0.0",
   "description": "Meta package for Zach Leatherman",
   "main": "./src/index.js",
   "bin": {
@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/zachleat/package-zachleat#readme",
   "dependencies": {
-    "update-notifier": "^5.1.0"
+    "update-notifier": "^7.3.1"
   }
 }

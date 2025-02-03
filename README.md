@@ -31,4 +31,5 @@ zachleat();
 
 ## Changelog
 
+* `v42` Bump `update-notifier` from v5 to [v6](https://github.com/sindresorhus/update-notifier/releases/tag/v6.0.0) (ESM) to [v7](https://github.com/sindresorhus/update-notifier/releases/tag/v7.0.0) (Node 18+)
 * `v41` Upgraded to ESM.
