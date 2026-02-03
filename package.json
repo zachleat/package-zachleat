@@ -1,6 +1,6 @@
 {
   "name": "zachleat",
-  "version": "42.0.0",
+  "version": "43.0.0",
   "description": "Meta package for Zach Leatherman",
   "main": "./src/index.js",
   "bin": {
@@ -12,7 +12,7 @@
     "test": "node --test"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "repository": {
     "type": "git",
