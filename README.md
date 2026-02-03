@@ -21,6 +21,9 @@ import zachleat from "zachleat";
 // or in CommonJS
 // const zachleat = await import("zachleat");
 
+// or in CommonJS (via require(esm) e.g. Deno 2+, Node 22+)
+// const { default: zachleat } = require("zachleat");
+
 zachleat();
 ```
 
