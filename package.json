@@ -1,6 +1,6 @@
 {
   "name": "zachleat",
-  "version": "43.1.0",
+  "version": "43.1.1",
   "description": "Meta package for Zach Leatherman",
   "main": "./src/index.js",
   "bin": {
