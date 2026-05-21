@@ -5,6 +5,8 @@ on:
 permissions: read-all
 jobs:
   release:
+    # see https://github.com/zachleat/package-zachleat/settings/environments
+    environment: GitHub Publish
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -19,4 +21,4 @@ jobs:
           package-manager-cache: false
       - run: npm install -g npm@latest
       - if: ${{ github.event.release.tag_name != '' }}
-        run: npm stage publish
+        run: npm stage publish --provenance
