@@ -1,7 +1,12 @@
-import updateNotifier from "update-notifier";
 import pkg from "../package.json" with { type: "json" };
+import updateNotifier from "simple-update-notifier";
 
-updateNotifier({ pkg }).notify();
+const ONE_YEAR = 1000 * 60 * 60 * 24 * 365;
+
+updateNotifier({
+	pkg,
+	updateCheckInterval: ONE_YEAR,
+});
 
 export default function() {
 	let intro = `Zach Leatherman (v${pkg.version})`;
